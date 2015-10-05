@@ -243,6 +243,12 @@ window.onload=function(){ // once the DOM is ready, you wnat to satrt the game.
 	new Game("screen")
 };
 
+$('#new').click(function() {
+
+  location.reload();
+
+	});
+
 })();
 
 
